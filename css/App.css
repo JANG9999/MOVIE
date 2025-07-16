@@ -1,0 +1,378 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* font */
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.star {
+  color: yellow;
+  margin-right: 0.5vw;
+}
+
+/* navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+.navbar a:hover {
+  color: #ffdc16;
+}
+.navbar .container .navbar-toggler {
+  border: none;
+}
+.navbar .container .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.navbar .container .navbar-brand {
+  color: #ffdc16;
+  font-weight: bold;
+}
+.navbar .container .navbar-collapse form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.navbar .container .navbar-collapse form button {
+  background-color: #ffdc16;
+  color: #111;
+  border: none;
+}
+.navbar .container .navbar-collapse form button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* mainpage */
+.main {
+  margin-top: 55px;
+  background-color: #111;
+  color: white;
+}
+.main .main-inner {
+  margin: 0 8.5vw;
+}
+.main .main-inner h2,
+.main .main-inner p {
+  color: white;
+  margin: 0;
+}
+.main .main-inner h2 {
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  border: 1px solid #000;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(70%, rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7) 70%);
+  top: 0;
+  left: 0;
+}
+.banner .textbox {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+}
+.banner .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.banner .textbox p.duration {
+  margin-left: 30px;
+}
+.banner .textbox p.release {
+  color: #f2f2f2;
+}
+.banner .textbox .desc {
+  width: 1000px;
+}
+
+/* card */
+.movie-card-wrap .movie-card {
+  width: 15.4vw;
+  height: 22.1vw !important;
+  background-size: cover;
+  border-radius: 1vw;
+  position: relative;
+  overflow: hidden;
+}
+.movie-card-wrap .movie-card.top10 {
+  width: 19vw;
+  height: 23.1vw;
+  border-radius: 0;
+}
+.movie-card-wrap .movie-card.top10 img.thumb {
+  position: absolute;
+  right: 0;
+}
+.movie-card-wrap .movie-card.top10 img.top {
+  bottom: 0;
+}
+.movie-card-wrap .movie-card.top10 .overlay {
+  position: absolute;
+  width: 15.4vw;
+  right: 0;
+}
+.movie-card-wrap .movie-card img {
+  position: absolute;
+}
+.movie-card-wrap .movie-card img.thumb {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 15.4vw;
+  height: 100%;
+  border-radius: 1vw;
+  right: 0;
+}
+.movie-card-wrap .movie-card img.top {
+  bottom: 0;
+}
+.movie-card-wrap .movie-card:hover .overlay {
+  opacity: 1;
+}
+.movie-card-wrap .movie-card .overlay {
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  border-radius: 1vw;
+  height: 100%;
+  width: 21vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(black));
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+}
+.movie-card-wrap .movie-card .overlay .text-wrap {
+  padding: 1vw;
+  width: 15vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p {
+  margin-bottom: 0.2vw;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p.adult {
+  font-weight: 900;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p.overview {
+  color: rgb(226, 226, 226);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9vw;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p.rate {
+  font-size: 0.9vw;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p.title {
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+.movie-card-wrap .movie-card .overlay .text-wrap p.genre {
+  font-size: 0.9vw;
+  color: rgb(173, 173, 173);
+}
+
+/* mypage */
+.mypage {
+  height: 100vh;
+  padding: 0 8.5vw;
+  padding-top: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  color: #f0f0f0;
+}
+.mypage .mypage-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.mypage .mypage-content img {
+  width: 14.8vw;
+  height: 14.8vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.mypage .mypage-content .content-wrap {
+  width: 14.8vw;
+  margin-top: 3vw;
+}
+.mypage .mypage-content .content-wrap .name {
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.mypage .mypage-content .content-wrap h5 {
+  margin-top: 1.5vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.mypage .mypage-content .content-wrap p {
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: #ddd;
+}
+.mypage .list {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+.mypage .list .mylist {
+  margin-bottom: 2vw;
+}
+.mypage .list .mylist .movie-card {
+  width: 11.3vw;
+  height: 16.5vw !important;
+}
+.mypage .list .mylist .movie-card .overlay .text-wrap {
+  width: 11.3vw;
+}
+.mypage .list .mylist .movie-card .overlay .text-wrap p.overview {
+  font-size: 0.8vw;
+}
+.mypage .list .mylist .movie-card .overlay .text-wrap p.rate {
+  font-size: 0.7vw;
+}
+.mypage .list .mylist .movie-card .overlay .text-wrap p.title {
+  font-size: 1vw;
+}
+.mypage .list .mylist .movie-card .overlay .text-wrap p.genre {
+  font-size: 0.8vw;
+}
+
+/* login */
+.login {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 1;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.login .login-bg {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+.login .login-card {
+  width: 33.7vw;
+  height: 35vw;
+  background-color: #fff;
+  border-radius: 2vw;
+  padding: 3.7vw;
+}
+.login .login-card h1 {
+  text-align: center;
+  font-size: 1.8vw;
+  font-weight: 700;
+}
+.login .login-card p {
+  text-align: center;
+  font-size: 1.3vw;
+}
+.login .login-card .form {
+  margin-top: 1.5vw;
+}
+.login .login-card .form .label {
+  font-size: 1vw;
+  font-weight: 500;
+}
+.login .login-card .form .input {
+  height: 3vw;
+  border-radius: 0.8vw;
+  border: 1px solid #cbcbcb;
+}
+.login .login-card .form .input:focus {
+  border-color: none;
+}
+.login .login-card .form .password {
+  margin-top: 1vw;
+}
+.login .login-card .form .submit {
+  width: 100%;
+  background-color: black;
+  border-radius: 0.8vw;
+  height: 3.3vw;
+  margin-top: 3vw;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+.login .login-card span {
+  display: block;
+  margin-top: 1vw;
+  text-align: center;
+}
+.login .login-card span b {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 0.5vw;
+}
+
+/* 404page */
+.notfound {
+  overflow: hidden;
+  color: white;
+  height: 100vh;
+  background: black;
+  position: relative;
+}
+.notfound img {
+  width: 100%;
+  position: absolute;
+  bottom: -4vw;
+  left: 0;
+}
+.notfound .text-wrap {
+  position: absolute;
+  z-index: 10;
+  left: 9vw;
+  bottom: 17vw;
+}
+.notfound .text-wrap h1 {
+  font-size: 10vw;
+  padding-top: 10vw;
+}
+.notfound .text-wrap p {
+  font-size: 1vw;
+  padding: 0.5vw 0 3vw 0;
+}
+.notfound .text-wrap .button-404 {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  border-radius: 40px;
+}

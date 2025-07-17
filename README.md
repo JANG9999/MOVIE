@@ -1,4 +1,4 @@
-<h2 align="center">영화사이트 제작</h2>
+<h2>🎥영화사이트 제작</h2>
 <br><br>
 
 ## 👩‍💻작업자
@@ -15,28 +15,9 @@
 
 ## ✏️ 메인페이지지
 
-### Header
-![Image](https://github.com/user-attachments/assets/916480da-2d66-4852-b7cb-d11c6b7a357f)
-<br><br><br>
-메인 페이지와 자연스럽게 어우러지도록 헤더를 투명하게 설정했습니다.
-<br><br><br>
-![Image](https://github.com/user-attachments/assets/7c235c70-706d-47f1-b37c-c40045a89453)
-![image](https://github.com/user-attachments/assets/9d940968-3429-4338-bf79-25f5647acf5e)
-<br><br><br>
-헤더에 마우스를 올리면 흰색으로 바뀌며, 클릭하면 세부 메뉴가 나타납니다.
-
-<br><br>
-### Footer
-![Image](https://github.com/user-attachments/assets/3d31f991-9660-4911-9cdb-cee62932a237)
-<br><br><br>
-Footer에 각 분원 사이트 링크를 추가해 사용자가 쉽게 해당 사이트로 이동할 수 있도록 했습니다.
-또한 사이트맵을 Footer 영역에 포함시켜 별도의 페이지 없이 필요한 정보를 한눈에 확인할 수 있도록 구성했습니다.
-<br><br>
-## 메인 페이지 
-
 ### main 메인 
-![Image](https://github.com/user-attachments/assets/916480da-2d66-4852-b7cb-d11c6b7a357f)
-![Image](https://github.com/user-attachments/assets/02865a6a-d34d-4b01-b267-17358236b8c1)
+<img width="2843" height="1519" alt="Image" src="https://github.com/user-attachments/assets/8018798c-64bb-45bf-8af9-680715a9d3be" />
+
 <br><br><br>
 공지사항, 채용공고, 입찰공고를 한눈에 확인할 수 있으며 해당 영역을 클릭하면 옆으로 내용을 펼쳐볼 수 있습니다.
 <br><br>

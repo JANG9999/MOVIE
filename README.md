@@ -19,43 +19,39 @@
 <img width="2843" height="1519" alt="Image" src="https://github.com/user-attachments/assets/8018798c-64bb-45bf-8af9-680715a9d3be" />
 
 <br><br><br>
-공지사항, 채용공고, 입찰공고를 한눈에 확인할 수 있으며 해당 영역을 클릭하면 옆으로 내용을 펼쳐볼 수 있습니다.
+배너와 popular, top10, nowplaying, upcoming으로 구성되어있습니다.
 <br><br>
-### section3  연구성과
-![Image](https://github.com/user-attachments/assets/63506cae-bb5b-469d-932e-40691f7862b7)
+### 트레일러
+<img width="2846" height="1516" alt="Image" src="https://github.com/user-attachments/assets/fdf292e4-a12a-4767-8e7f-e81f73e86d98" />
 <br><br><br>
-최근 연구성과를 스와이퍼 형식으로 보여줍니다.
-<br><br>
-### section4  언론에서 바라보는 KRIBB
-![Image](https://github.com/user-attachments/assets/88cbbba7-0fb9-4b6e-8ac3-1e9addb08f82)
-<br><br><br>
-KRIBB와 관련된 언론 보도를 카드 형태로 보여줍니다.
-카드에 마우스를 올리면 이미지가 확대되고 화살표가 나타나 접근성과 시각적 흥미를 높였습니다.
-<br><br>
-### section5  서비스
-![Image](https://github.com/user-attachments/assets/9ec48f68-8c15-4f62-a80a-065072326797)
-<br><br><br>
-이 영역은 퀵메뉴, SNS, 그리고 팝업으로 구성되어 있습니다.
-SNS와 팝업은 스와이퍼 형식으로 구현되어 있으며 퀵메뉴 오른쪽에 위치한 메뉴를 클릭하면 해당하는 내용이 표시됩니다.
+배너에 있는 trailer 버튼을 클릭하면 모달창으로 트레일러가 나타납니다.
 <br><br>
 
 ## 📄 서브페이지
-### 회사 비전
-![Image](https://github.com/user-attachments/assets/45349648-a66c-468b-be76-85d58d5364a9)
-![Image](https://github.com/user-attachments/assets/be7f5e05-1e89-4476-98fe-bbb0f19bb0ba)
+### detail 페이지
+<img width="2834" height="1521" alt="Image" src="https://github.com/user-attachments/assets/75e7f6e0-1166-4211-9558-2e12252ca5db" />
+<img width="2825" height="1409" alt="Image" src="https://github.com/user-attachments/assets/fafdc370-e894-4586-ba09-5a52bde467a4" />
 <br><br><br>
-회사 비전을 소개하는 페이지로, 핵심 가치 카드에 마우스를 올리면 그림자가 생겨 강조되며,
-성장 목표 이미지는 마우스를 올릴 때 확대됩니다.
+메인 페이지에서 영화 카드를 클릭하면 디테일 페이지로 이동합니다.
+디테일 페이지의 상단에는 영화 제목과 줄거리, 추천 영화가 표시되며, 그 아래에는 출연진 정보와 갤러리 섹션이 구성되어 있습니다.
 <br><br>
-### 채용공고
-![Image](https://github.com/user-attachments/assets/ccbdf2d2-2fbb-41b7-bd34-97e7f7d6d8d1)
+### 영화 리스트 페이지
+<img width="2837" height="1522" alt="Image" src="https://github.com/user-attachments/assets/93cc811c-22cf-4d1e-a576-c71b54bf550a" />
 <br><br><br>
-채용공고 페이지로 아래에 있는 숫자를 누르면 해당하는 페이지로 넘어갑니다.
+영화 리스트 페이지에서는 여러 개의 영화 카드가 표시되며, 메인 페이지와 마찬가지로 각 카드를 클릭하면 해당 영화의 디테일 페이지로 이동합니다.
+<br><br>
+### 마이페이지
+<img width="2830" height="1462" alt="Image" src="https://github.com/user-attachments/assets/b85d1650-5a14-4f6a-8c42-85fc90740d53" />
+왼쪽에는 개인정보가, 오른쪽에는 시청내역이 있습니다. 마찬가지로 시정내용에 있는 영화 카드를 클릭하면 해당 영화의 디테일 페이지로 이동합니다.
+<br><br>
+### 로그인페이
+<img width="2875" height="1518" alt="Image" src="https://github.com/user-attachments/assets/1f860737-ef4d-4521-8e2f-9ce678f8de0e" />
+<br><br><br>
+화면 우측에는 로그인 폼이 위치해 있으며, 현재는 실제 로그인 기능은 구현되어 있지 않고 추후에 추가할 예정입니다.
 <br><br>
 
 ## 🔗 링크
-- [리뉴얼 작업 피그마 주소](https://www.figma.com/design/iQvwuAaK7sTuTeWObNZNQd/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%9E%A5%EC%84%9C%EC%97%B0?node-id=0-1&t=8ECRahjL1IUUwej7-1)
+- [리뉴얼 작업 피그마 주소](https://www.figma.com/design/kkVYWA4VeuOWiijjzSKz5M/%EB%A6%AC%EC%97%91%ED%8A%B8-%EC%98%81%ED%99%94?node-id=0-1&t=xfZJxVzQNAlsJtak-1)
 
-# KRIBB 리뉴얼 사이트
-- [KRIBB 기존 사이트](https://www.kribb.re.kr/kor/main/main.jsp)
-- [KRIBB 리뉴얼](https://jang9999.github.io/portfolio-KRIBB/index.html)
+# 영화사이트
+- [영화사이트 링](https://shiny-sunshine-9b7414.netlify.app/)

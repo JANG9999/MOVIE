@@ -17,6 +17,11 @@
 
 ### main 메인 
 <img width="2843" height="1519" alt="Image" src="https://github.com/user-attachments/assets/8018798c-64bb-45bf-8af9-680715a9d3be" />
+<br><br>
+<img width="2600" height="917" alt="Image" src="https://github.com/user-attachments/assets/2885ea98-413d-4bf4-825d-26a666091e66" />
+<img width="2506" height="913" alt="Image" src="https://github.com/user-attachments/assets/e8524eec-be7e-4d20-8508-8cc4cafd6a6b" />
+<img width="2461" height="882" alt="Image" src="https://github.com/user-attachments/assets/f73ba564-c059-45ae-b51f-e9f3ba113580" />
+<img width="2459" height="863" alt="Image" src="https://github.com/user-attachments/assets/3aec319d-7da3-47b6-aa7e-2ab1eba8a20f" />
 
 <br><br><br>
 배너와 popular, top10, nowplaying, upcoming으로 구성되어있습니다.

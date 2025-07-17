@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<h2 align="center">영화사이트 제작</h2>
+<br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👩‍💻작업자
+장서연
+<br><br>
 
-## Available Scripts
+## 📅 제작기간 :(5일)
+2025.07.09~2025.07.15
+<br><br>
 
-In the project directory, you can run:
+## 📎 페이지 개수
+메인페이지 + 서브페이지 4개
+<br><br>
 
-### `npm start`
+## ✏️ 메인페이지지
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Header
+![Image](https://github.com/user-attachments/assets/916480da-2d66-4852-b7cb-d11c6b7a357f)
+<br><br><br>
+메인 페이지와 자연스럽게 어우러지도록 헤더를 투명하게 설정했습니다.
+<br><br><br>
+![Image](https://github.com/user-attachments/assets/7c235c70-706d-47f1-b37c-c40045a89453)
+![image](https://github.com/user-attachments/assets/9d940968-3429-4338-bf79-25f5647acf5e)
+<br><br><br>
+헤더에 마우스를 올리면 흰색으로 바뀌며, 클릭하면 세부 메뉴가 나타납니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br><br>
+### Footer
+![Image](https://github.com/user-attachments/assets/3d31f991-9660-4911-9cdb-cee62932a237)
+<br><br><br>
+Footer에 각 분원 사이트 링크를 추가해 사용자가 쉽게 해당 사이트로 이동할 수 있도록 했습니다.
+또한 사이트맵을 Footer 영역에 포함시켜 별도의 페이지 없이 필요한 정보를 한눈에 확인할 수 있도록 구성했습니다.
+<br><br>
+## 메인 페이지 
 
-### `npm test`
+### main 메인 
+![Image](https://github.com/user-attachments/assets/916480da-2d66-4852-b7cb-d11c6b7a357f)
+![Image](https://github.com/user-attachments/assets/02865a6a-d34d-4b01-b267-17358236b8c1)
+<br><br><br>
+공지사항, 채용공고, 입찰공고를 한눈에 확인할 수 있으며 해당 영역을 클릭하면 옆으로 내용을 펼쳐볼 수 있습니다.
+<br><br>
+### section3  연구성과
+![Image](https://github.com/user-attachments/assets/63506cae-bb5b-469d-932e-40691f7862b7)
+<br><br><br>
+최근 연구성과를 스와이퍼 형식으로 보여줍니다.
+<br><br>
+### section4  언론에서 바라보는 KRIBB
+![Image](https://github.com/user-attachments/assets/88cbbba7-0fb9-4b6e-8ac3-1e9addb08f82)
+<br><br><br>
+KRIBB와 관련된 언론 보도를 카드 형태로 보여줍니다.
+카드에 마우스를 올리면 이미지가 확대되고 화살표가 나타나 접근성과 시각적 흥미를 높였습니다.
+<br><br>
+### section5  서비스
+![Image](https://github.com/user-attachments/assets/9ec48f68-8c15-4f62-a80a-065072326797)
+<br><br><br>
+이 영역은 퀵메뉴, SNS, 그리고 팝업으로 구성되어 있습니다.
+SNS와 팝업은 스와이퍼 형식으로 구현되어 있으며 퀵메뉴 오른쪽에 위치한 메뉴를 클릭하면 해당하는 내용이 표시됩니다.
+<br><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📄 서브페이지
+### 회사 비전
+![Image](https://github.com/user-attachments/assets/45349648-a66c-468b-be76-85d58d5364a9)
+![Image](https://github.com/user-attachments/assets/be7f5e05-1e89-4476-98fe-bbb0f19bb0ba)
+<br><br><br>
+회사 비전을 소개하는 페이지로, 핵심 가치 카드에 마우스를 올리면 그림자가 생겨 강조되며,
+성장 목표 이미지는 마우스를 올릴 때 확대됩니다.
+<br><br>
+### 채용공고
+![Image](https://github.com/user-attachments/assets/ccbdf2d2-2fbb-41b7-bd34-97e7f7d6d8d1)
+<br><br><br>
+채용공고 페이지로 아래에 있는 숫자를 누르면 해당하는 페이지로 넘어갑니다.
+<br><br>
 
-### `npm run build`
+## 🔗 링크
+- [리뉴얼 작업 피그마 주소](https://www.figma.com/design/iQvwuAaK7sTuTeWObNZNQd/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EC%9E%A5%EC%84%9C%EC%97%B0?node-id=0-1&t=8ECRahjL1IUUwej7-1)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# KRIBB 리뉴얼 사이트
+- [KRIBB 기존 사이트](https://www.kribb.re.kr/kor/main/main.jsp)
+- [KRIBB 리뉴얼](https://jang9999.github.io/portfolio-KRIBB/index.html)

@@ -22,12 +22,12 @@ TMDB에서 영화 데이터(JSON 형식)를 받아오고 이를 await로 처리�
 ## ✏️ 메인페이지지
 
 ### main 메인 
-<img width="2843" height="1519" alt="Image" src="https://github.com/user-attachments/assets/8018798c-64bb-45bf-8af9-680715a9d3be" />
+<img width="2842" height="826" alt="Image" src="https://github.com/user-attachments/assets/5b6bfe53-bbba-4f6c-a5ee-57f8528a670d" />
 <br><br>
-<img width="2600" height="917" alt="Image" src="https://github.com/user-attachments/assets/2885ea98-413d-4bf4-825d-26a666091e66" />
-<img width="2506" height="913" alt="Image" src="https://github.com/user-attachments/assets/e8524eec-be7e-4d20-8508-8cc4cafd6a6b" />
-<img width="2461" height="882" alt="Image" src="https://github.com/user-attachments/assets/f73ba564-c059-45ae-b51f-e9f3ba113580" />
-<img width="2459" height="863" alt="Image" src="https://github.com/user-attachments/assets/3aec319d-7da3-47b6-aa7e-2ab1eba8a20f" />
+<img width="2530" height="876" alt="Image" src="https://github.com/user-attachments/assets/2f540b5e-58a0-4104-9321-a147c0e21e22" />
+<img width="2473" height="831" alt="Image" src="https://github.com/user-attachments/assets/bdd14233-0b99-4b0a-93f3-69a47d7de06a" />
+<img width="2534" height="880" alt="Image" src="https://github.com/user-attachments/assets/14825667-5299-495a-bf4d-17cc04ba362c" />
+<img width="2445" height="828" alt="Image" src="https://github.com/user-attachments/assets/f157c742-7d2b-4407-ad11-9125fad390b9" />
 
 <br><br><br>
 배너와 popular, top10, nowplaying, upcoming으로 구성되어있습니다.

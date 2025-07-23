@@ -74,4 +74,4 @@ TMDB에서 영화 데이터(JSON 형식)를 받아오고 이를 await로 처리�
 - [리뉴얼 작업 피그마 주소](https://www.figma.com/design/kkVYWA4VeuOWiijjzSKz5M/%EB%A6%AC%EC%97%91%ED%8A%B8-%EC%98%81%ED%99%94?node-id=0-1&t=xfZJxVzQNAlsJtak-1)
 
 ## 영화사이트
-- [영화사이트 링크](https://shiny-sunshine-9b7414.netlify.app/)
+- [영화사이트 링크](https://lambent-beignet-3e6b43.netlify.app/)

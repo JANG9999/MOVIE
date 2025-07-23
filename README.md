@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1>🎥영화사이트 제작</h1>
+<br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👩‍💻작업자
+장서연
+<br><br>
 
-## Available Scripts
+## 📅 제작기간 :(5일)
+2025.07.09~2025.07.15
+<br><br>
 
-In the project directory, you can run:
+## 📎 페이지 개수
+메인페이지 + 서브페이지 4개
+<br><br>
 
-### `npm start`
+## API 불러오기
+저는 TMDB(The Movie Database)에서 제공하는 영화 정보를 API로 받아와 영화 소개 웹사이트를 제작했습니다. 
+이때 API 호출에는 JavaScript의 async/await 비동기 처리 방식을 사용했습니다. fetch() 함수를 async 함수 안에서 사용하여, 
+TMDB에서 영화 데이터(JSON 형식)를 받아오고 이를 await로 처리해 응답이 완전히 도착한 후에 다음 작업이 실행되도록 구성했습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✏️ 메인페이지지
 
-### `npm test`
+### main 메인 
+<img width="2843" height="1519" alt="Image" src="https://github.com/user-attachments/assets/8018798c-64bb-45bf-8af9-680715a9d3be" />
+<br><br>
+<img width="2600" height="917" alt="Image" src="https://github.com/user-attachments/assets/2885ea98-413d-4bf4-825d-26a666091e66" />
+<img width="2506" height="913" alt="Image" src="https://github.com/user-attachments/assets/e8524eec-be7e-4d20-8508-8cc4cafd6a6b" />
+<img width="2461" height="882" alt="Image" src="https://github.com/user-attachments/assets/f73ba564-c059-45ae-b51f-e9f3ba113580" />
+<img width="2459" height="863" alt="Image" src="https://github.com/user-attachments/assets/3aec319d-7da3-47b6-aa7e-2ab1eba8a20f" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br><br><br>
+배너와 popular, top10, nowplaying, upcoming으로 구성되어있습니다.
+<br><br>
 
-### `npm run build`
+### 트레일러
+<img width="2846" height="1516" alt="Image" src="https://github.com/user-attachments/assets/fdf292e4-a12a-4767-8e7f-e81f73e86d98" />
+<br><br><br>
+배너에 있는 trailer 버튼을 클릭하면 모달창으로 트레일러가 나타납니다.
+<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📄 서브페이지
+### detail 페이지
+<img width="2834" height="1521" alt="Image" src="https://github.com/user-attachments/assets/75e7f6e0-1166-4211-9558-2e12252ca5db" />
+<img width="2825" height="1409" alt="Image" src="https://github.com/user-attachments/assets/fafdc370-e894-4586-ba09-5a52bde467a4" />
+<br><br><br>
+디테일 페이지 상단에는 영화 제목, 줄거리, 트레일러 버튼 등이 위치해 있으며, 그 아래에는 출연진 정보와 갤러리 섹션이 구성되어 있습니다. 
+출연진과 갤러리 섹션의 데이터는 TMDB의 Movie Detail API를 통해 받아와 화면에 출력했습니다.
+<br><br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 영화 리스트 페이지
+<img width="2837" height="1522" alt="Image" src="https://github.com/user-attachments/assets/93cc811c-22cf-4d1e-a576-c71b54bf550a" />
+<br><br><br>
+영화 리스트 페이지에서는 여러 개의 영화 카드가 표시되며, 메인 페이지와 마찬가지로 각 카드를 클릭하면 해당 영화의 디테일 페이지로 이동합니다.
+<br><br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 마이페이지
+<img width="2830" height="1462" alt="Image" src="https://github.com/user-attachments/assets/b85d1650-5a14-4f6a-8c42-85fc90740d53" />
+왼쪽에는 개인정보가, 오른쪽에는 시청내역이 있습니다. 마찬가지로 시정내용에 있는 영화 카드를 클릭하면 해당 영화의 디테일 페이지로 이동합니다.
+<br><br>
 
-### `npm run eject`
+### 로그인페이
+<img width="2875" height="1518" alt="Image" src="https://github.com/user-attachments/assets/1f860737-ef4d-4521-8e2f-9ce678f8de0e" />
+<br><br><br>
+화면 우측에는 로그인 폼이 위치해 있으며, 현재는 실제 로그인 기능은 구현되어 있지 않고 추후에 추가할 예정입니다.
+<br><br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔗 링크
+- [리뉴얼 작업 피그마 주소](https://www.figma.com/design/kkVYWA4VeuOWiijjzSKz5M/%EB%A6%AC%EC%97%91%ED%8A%B8-%EC%98%81%ED%99%94?node-id=0-1&t=xfZJxVzQNAlsJtak-1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 영화사이트
+- [영화사이트 링크](https://shiny-sunshine-9b7414.netlify.app/)
